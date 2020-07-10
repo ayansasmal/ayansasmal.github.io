@@ -1,0 +1,96 @@
+.Header {
+  display: flex;
+  text-align: start;
+  vertical-align: bottom;
+  height: 400px;
+  width: 100%;
+  background: url(../Assets/images/FB_IMG_1572578256965.jpg) no-repeat right top;
+  background-size: auto 700px;
+  background-position: 0% 35%;
+}
+
+.Details {
+  display: inline-block;
+  background: rgba(11, 163, 97, 0.65);
+}
+
+.Details span {
+  display: block;
+}
+
+.Name {
+  text-align: start;
+  color: white;
+  font-size: 40pt;
+  font-weight: bold;
+  margin-top: 155px;
+  padding: 10px 20px;
+  width: 100%;
+  /* background: rgba(93, 167, 239, 0.75); */
+  text-shadow: 2px 2px 5px grey;
+}
+
+.ContactDetails {
+  text-align: end;
+  color: white;
+  background: rgba(11, 163, 97, 0.5);
+  padding: 20px;
+}
+
+.ContactDetails span {
+  margin: 10px;
+}
+
+.ContactDetails a:hover,
+.ContactDetails a:visited,
+.ContactDetails a:link,
+.ContactDetails a:active{
+  text-decoration: none;
+  color: white;
+}
+
+.MobileBackdrop {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .Header {
+    display: none;
+  }
+
+  .Name {
+    display: none;
+  }
+
+  .MobileBackdrop {
+    display: block;
+    padding: 15px 0px;
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+  }
+
+  .HeaderMobile {
+    display: block;
+    border: 1px solid grey;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    background: url(../Assets/images/FB_IMG_1572578256965.jpg) no-repeat right
+      top;
+    background-size: auto 450px;
+    background-position: 100% 35%;
+    border-radius: 50%;
+    border: 10px solid white;
+    box-shadow: 0px 2px 10px 1px grey;
+  }
+
+  .NameMobile {
+    margin-top: 20px;
+    display: block;
+    color: white;
+    font-size: 30pt;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px grey;
+  }
+
+
+}

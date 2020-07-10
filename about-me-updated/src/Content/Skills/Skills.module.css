@@ -1,0 +1,59 @@
+.SkillsSection {
+  display: block;
+  margin-top: 10px;
+}
+
+.SkillsSection ul {
+  list-style: none;
+}
+
+.Expertise,
+.SkillSet {
+  display: inline-block;
+  border: 0px;
+  border-radius: 5px;
+
+  box-shadow: 0px 2px 10px 1px grey;
+}
+
+.Expertise {
+  width: 63%;
+  margin-right: 2%;
+  vertical-align: top;
+}
+
+.SkillSet {
+  width: 33%;
+}
+
+.Header {
+  color: white;
+  background: #0ba360;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px 0px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.SkillSectionHeader {
+  text-align: start;
+  margin-left: 10px;
+  text-transform: uppercase ;
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 767px) {
+  .Expertise,
+  .SkillSet {
+    display: block;
+    width: 95%;
+    margin:10px auto;
+  }
+
+  .Expertise {
+    height: 345px;
+    margin: 20px auto;
+  }
+}

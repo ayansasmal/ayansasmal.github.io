@@ -1,0 +1,36 @@
+.Navbar {
+    background: #0ba360;
+    border: 1px solid #0ba360;
+    border-bottom: 3px solid green;
+}
+
+.NavigationList {
+    color: white;
+    list-style: none;
+}
+
+.Item {
+    border-right: 2px solid white;
+    display: inline-block;
+    padding: 5px 20px;  
+    background: transparent;
+    text-shadow: 2px 2px 5px grey;
+    transition: color 300ms ease-in-out 0s, text-shadow 300ms ease-in-out 0s;
+}
+
+.Item:last-of-type {
+    border:0px;
+}
+
+.Item:hover {
+    color: black;
+
+    text-shadow: 2px 2px 5px white;
+}
+
+@media (max-width: 767px) {
+
+    .Navbar{
+        display: none;
+    }
+}
