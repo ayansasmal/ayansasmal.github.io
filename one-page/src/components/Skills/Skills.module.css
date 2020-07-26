@@ -1,0 +1,33 @@
+.Content {
+  text-align: left;
+}
+
+.Header {
+  font-size: 150%;
+  font-weight: 300;
+}
+
+.Header:after {
+  display: block;
+  height: 01px;
+  background-color: white;
+  content: " ";
+  margin: 10px 0px;
+  margin-bottom: 0px;
+}
+
+.SkillSet {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0px;
+  padding: 10px;
+  padding-left: 0px;
+}
+
+.Skill {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}

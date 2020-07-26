@@ -1,0 +1,16 @@
+.Detail {
+  margin: 5px 0px;
+}
+
+.Name {
+  display: inline-block;
+  width: 120px;
+  text-align: end;
+  padding-right: 10px;
+}
+
+.Value {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+}

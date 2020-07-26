@@ -1,0 +1,7 @@
+.LeftSide {
+  display: inline-block;
+  margin: 20px;
+  height: auto;
+  width: 30%;
+  float: left;
+}

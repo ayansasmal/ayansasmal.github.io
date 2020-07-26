@@ -1,0 +1,21 @@
+.Content {
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  margin-top: 10px;
+  border-radius: 10px;
+  font-weight: 300;
+}
+
+.ContactDetails {
+  margin: 5px 10%;
+  text-align: start;
+  padding: 10px;
+}
+
+.Content:after {
+  display: block;
+  height: 2px;
+  background-color: white;
+  content: " ";
+  margin: 15px 35%;
+  margin-bottom: 0px;
+}

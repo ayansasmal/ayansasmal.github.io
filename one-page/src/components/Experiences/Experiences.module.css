@@ -1,0 +1,21 @@
+.Content {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.Header {
+  font-size: 150%;
+  font-weight: 300;
+}
+
+.Header:after {
+  display: block;
+  height: 01px;
+  background-color: white;
+  content: " ";
+  margin: 10px 0px;
+  margin-bottom: 0px;
+}
+
+.Experiences {
+}
