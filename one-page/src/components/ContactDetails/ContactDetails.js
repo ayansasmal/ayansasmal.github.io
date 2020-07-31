@@ -16,13 +16,13 @@ const ContactDetails = (props) => {
         <Detail name="Based at :" value="Sydney, NSW" />
         <Detail
           name="Github :"
-          value="url"
+          value="https://github.com/ayansasmal/"
           displayText="Github URL"
           isUrl={true}
         />
         <Detail
           name="LinkedIn :"
-          value="url"
+          value="https://www.linkedin.com/in/ayan-sasmal/"
           displayText="LinkedIn URL"
           isUrl={true}
         />
