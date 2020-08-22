@@ -4,3 +4,12 @@
   height: auto;
   width: 62%;
 }
+
+@media screen and (max-width: 1024px) {
+  .RightSide {
+    margin-top: 5px;
+    text-align: start;
+    padding: 0px;
+    width: auto;
+  }
+}

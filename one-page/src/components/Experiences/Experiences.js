@@ -19,8 +19,8 @@ const Experiences = (props) => {
   return (
     <div className={Classes.Content}>
       <div className={Classes.Header}>Experiences</div>
-      <div className={Classes.Experiences}>
-        <Experience descriptionHandler={setDescription} />
+      <Experience descriptionHandler={setDescription} />
+      <div className={Classes.MobileDescription}>
         <Description text={description} />
       </div>
     </div>

@@ -18,4 +18,19 @@
 }
 
 .Experiences {
+  padding: 5px;
+  display: inline-block;
+}
+
+.MobileDescription {
+  display: inline;
+}
+
+@media screen and (max-width: 1024px) {
+  .Content {
+    /* margin: 10px auto; */
+  }
+  .MobileDescription {
+    display: none;
+  }
 }

@@ -18,3 +18,10 @@
 .ListedText {
   padding: 5px 0px;
 }
+
+@media screen and (max-width: 1024px) {
+  .Description {
+    width: auto;
+    margin: 2px 5px;
+  }
+}

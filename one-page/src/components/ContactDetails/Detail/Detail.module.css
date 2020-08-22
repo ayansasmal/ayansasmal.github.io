@@ -14,3 +14,12 @@
   color: white;
   font-weight: 400;
 }
+
+@media screen and (max-width: 1024px) {
+  .Name {
+    display: inline-block;
+    width: 43%;
+    text-align: end;
+    padding-right: 10px;
+  }
+}

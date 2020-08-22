@@ -46,3 +46,39 @@
   font-style: italic;
   font-size: 85%;
 }
+.MobileDescription {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .Headings {
+    width: 95%;
+  }
+
+  .HeadingList {
+    margin: 0px auto;
+  }
+
+  .Heading {
+    margin-top: 10px;
+    width: auto;
+    border-right: none;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .Heading:hover,
+  .Heading:active {
+    border: none;
+    border-bottom: 3px solid white;
+  }
+
+  .Selected {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-bottom: 3px solid white;
+  }
+
+  .MobileDescription {
+    display: inline-block;
+  }
+}

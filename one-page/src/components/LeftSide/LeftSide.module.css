@@ -5,3 +5,12 @@
   width: 30%;
   float: left;
 }
+
+@media screen and (max-width: 1024px) {
+  .LeftSide {
+    display: inline-block;
+    margin: 10px auto;
+    height: auto;
+    width: auto;
+  }
+}

@@ -1,5 +1,4 @@
 .Content {
-  /* background-color: rgba(255, 255, 255, 0.2); */
   margin-top: 10px;
   border-radius: 10px;
   font-weight: 300;
@@ -18,4 +17,12 @@
   content: " ";
   margin: 15px 35%;
   margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+  .ContactDetails {
+    margin: 5px auto;
+    text-align: start;
+    padding: 10px;
+  }
 }

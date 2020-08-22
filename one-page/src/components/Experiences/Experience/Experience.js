@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Classes from "./Experience.module.css";
+import Description from "../Description/Description";
 
 const data = [
   {
@@ -133,20 +134,24 @@ const Experience = (props) => {
 
     const listedTitles = data.map((val, index) => {
       return (
-        <li
-          key={index}
-          className={
-            selected[index]
-              ? [Classes.Heading, Classes.Selected].join(" ")
-              : Classes.Heading
-          }
-          onClick={(event) => onClickHandler(index)}
-        >
-          <div className={Classes.Title}>{val.title}</div>
-          <div className={Classes.Company}>{val.company}</div>
-          <div className={Classes.Location}>{val.location}</div>
-          <div className={Classes.Duration}>{val.duration}</div>
-        </li>
+        <div key={index}>
+          <li
+            className={
+              selected[index]
+                ? [Classes.Heading, Classes.Selected].join(" ")
+                : Classes.Heading
+            }
+            onClick={(event) => onClickHandler(index)}
+          >
+            <div className={Classes.Title}>{val.title}</div>
+            <div className={Classes.Company}>{val.company}</div>
+            <div className={Classes.Location}>{val.location}</div>
+            <div className={Classes.Duration}>{val.duration}</div>
+          </li>
+          <div className={Classes.MobileDescription}>
+            {selected[index] && <Description text={val.description} />}
+          </div>
+        </div>
       );
     });
     setTitles(listedTitles);
