@@ -6,9 +6,9 @@
   background: url(../../Assets/images/FB_IMG_1572578256965.jpg) no-repeat right
     top;
   background-size: auto 450px;
-  background-position: 100% 35%;
+  background-position: 96% 35%;
   border-radius: 50%;
-  border: 10px solid white;
+  border: 10px solid rgb(255, 255, 255, 0.6);
   box-shadow: 0px 2px 10px 1px rgba(255, 255, 255, 0.5);
 }
 

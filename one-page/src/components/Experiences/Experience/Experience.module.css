@@ -11,18 +11,19 @@
 .Heading {
   text-align: end;
   padding: 10px;
-  border-right: 2px solid rgba(255, 255, 255, 0.3);
+  border-right: 3px solid rgba(255, 255, 255, 0.3);
   margin-bottom: 5px;
+  transition: all 200ms ease-in-out;
 }
 
 .Heading:hover,
 .Heading:active {
-  border-right: 2px solid green;
+  border-right: 3px solid white;
 }
 
 .Selected {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-right: 2px solid white;
+  background: rgba(255, 255, 255, 0.1);
+  border-right: 3px solid white;
 }
 
 .Title {

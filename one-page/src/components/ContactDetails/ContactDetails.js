@@ -6,7 +6,7 @@ const ContactDetails = (props) => {
   return (
     <div className={Classes.Content}>
       <div className={Classes.ContactDetails}>
-        <Detail name="Mobile Number :" value="+61452299076" />
+        <Detail name="Mobile Number :" value="+61 452 299 076" />
         <Detail
           name="Email Id :"
           value="mailto:ayandelhi@gmail.com"

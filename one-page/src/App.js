@@ -11,15 +11,32 @@ import Experiences from "./components/Experiences/Experiences";
 function App() {
   return (
     <div className={Classes.App}>
-      <LeftSide>
-        <Name />
-        <ContactDetails />
-        <Qualifications />
-      </LeftSide>
-      <RightSide>
-        <Skills />
-        <Experiences />
-      </RightSide>
+      <main>
+        <LeftSide>
+          <Name />
+          <ContactDetails />
+          <Qualifications />
+        </LeftSide>
+        <RightSide>
+          <Skills />
+          <Experiences />
+        </RightSide>
+      </main>
+      <footer>
+        <div>
+          <span>Ayan Sasmal, 2020 | </span>
+          <span>
+            Icons made by{" "}
+            <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
+              Freepik
+            </a>{" "}
+            from{" "}
+            <a href="https://www.flaticon.com/" title="Flaticon">
+              www.flaticon.com
+            </a>
+          </span>
+        </div>
+      </footer>
     </div>
   );
 }

@@ -3,13 +3,30 @@ import Classes from "./Experience.module.css";
 
 const data = [
   {
-    title: "Full Stack Developer",
-    company: "Innovate IT Consultancy",
-    duration: "05/2020 - Present",
-    location: "Sydney, NSW",
+    title: "Senior Engineer Full Stack Developer",
+    company: "Cognizant Technologies",
+    duration: "09/2020 - Present",
+    location: "Sydney, NSW, AU",
     description: {
       plainText:
-        "I have been working as a Full Stack developer, for a leading Telstra in Sydney as a client for creating new and enhancing existing applications.",
+        "I have been working as a Full Stack developer, for Telstra in Sydney as a client for creating new and enhancing existing applications.",
+      listedText: [
+        "All the projects that I have delivered were in Agile and have used JIRA to manage the work done by the team.",
+        "The new applications have been developed using Spring Boot, Java 1.8, Node.js, React JS, Back-end unit tested with REST Assured, Postman. The existing application have been developed in JSPs and Spring MVC.",
+        "I have successfully documented and helped teams in implementing very complex application and solutions.",
+        "I have worked seamlessly with a team based in India.",
+        "I have created various documents as part of project deliverables.",
+      ],
+    },
+  },
+  {
+    title: "Full Stack Developer",
+    company: "Innovate IT Consultancy",
+    duration: "05/2020 - 08/2020",
+    location: "Sydney, NSW, AU",
+    description: {
+      plainText:
+        "I have been working as a Full Stack developer, for Telstra in Sydney as a client for creating new and enhancing existing applications.",
       listedText: [
         "All the projects that I have delivered were in Agile and have used JIRA to manage the work done by the team.",
         "The new applications have been developed using Spring Boot, Java 1.8, Node.js, React JS, Back-end unit tested with REST Assured, Postman. The existing application have been developed in JSPs and Spring MVC.",
@@ -23,7 +40,7 @@ const data = [
     title: "Technology Analyst",
     company: "TechForce Services",
     duration: "11/2019 - 05/2020",
-    location: "Sydney, NSW",
+    location: "Sydney, NSW, AU",
     description: {
       plainText:
         "I have been working for Westpac Bank as a client for creating new applications and enhancing existing one",
@@ -43,7 +60,7 @@ const data = [
     title: "Technology Analyst",
     company: "Infosys Technology Limited",
     duration: "01/2015 - 05/2019",
-    location: "Sydney, NSW",
+    location: "Sydney, NSW, AU",
     description: {
       plainText:
         "I have worked for leading Westpac Bank as a client for creating new and enhancing existing credit card origination applications and updating the portal to add documents for verification.",
@@ -59,10 +76,10 @@ const data = [
     },
   },
   {
-    title: "Senior Systems Enginner",
+    title: "Senior Systems Engineer",
     company: "Infosys Technology Limited",
     duration: "01/2014 - 01/2015",
-    location: "Pune, India",
+    location: "Pune, IN",
     description: {
       plainText:
         "I have worked for leading Bank in Australia as a client in developing an enterprise web application on a Spring MVC based architecture with extensive use of add-ons like jQuery, CSS, RESTful Web services, Maven and jUnit.",
@@ -74,10 +91,10 @@ const data = [
     },
   },
   {
-    title: "Systems Enginner",
+    title: "Systems Engineer",
     company: "Infosys Technology Limited",
     duration: "04/2012 - 01/2014",
-    location: "Mysuru, India",
+    location: "Mysuru, IN",
     description: {
       plainText:
         "I have worked for Education, Talent & Assessment, formerly known as Education & Research, a Business Enabling Function of Infosys Technology Limited as an internal client.",
@@ -97,7 +114,14 @@ const data = [
 ];
 
 const Experience = (props) => {
-  const [selected, setSelected] = useState([true, false, false, false, false]);
+  const [selected, setSelected] = useState([
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+  ]);
   const [titles, setTitles] = useState(null);
 
   useEffect(() => {
