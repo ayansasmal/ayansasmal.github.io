@@ -10,7 +10,7 @@ const data = [
     location: "Sydney, NSW, AU",
     description: {
       plainText:
-        "I have been working as a Full Stack developer, for Telstra in Sydney as a client for creating new and enhancing existing applications.",
+        "I have been working as a Senior Full Stack developer, for Westpac Banking Corporation as a client for creating new and enhancing existing applications and APIs.",
       listedText: [
         "All the projects that I have delivered were in Agile and have used JIRA to manage the work done by the team.",
         "The new applications have been developed using Spring Boot, Java 1.8, Node.js, React JS, Back-end unit tested with REST Assured, Postman. The existing application have been developed in JSPs and Spring MVC.",
@@ -27,7 +27,7 @@ const data = [
     location: "Sydney, NSW, AU",
     description: {
       plainText:
-        "I have been working as a Full Stack developer, for Telstra in Sydney as a client for creating new and enhancing existing applications.",
+        "I have worked as a Full Stack developer, for Telstra in Sydney as a client for creating new and enhancing existing applications.",
       listedText: [
         "All the projects that I have delivered were in Agile and have used JIRA to manage the work done by the team.",
         "The new applications have been developed using Spring Boot, Java 1.8, Node.js, React JS, Back-end unit tested with REST Assured, Postman. The existing application have been developed in JSPs and Spring MVC.",
@@ -44,7 +44,7 @@ const data = [
     location: "Sydney, NSW, AU",
     description: {
       plainText:
-        "I have been working for Westpac Bank as a client for creating new applications and enhancing existing one",
+        "I have worked for Westpac Bank as a client for creating new applications and enhancing existing one",
       listedText: [
         "During this time period, I have designed solutions along with Senior Technical Architects and Technical Leads to integrate various systems, resolving technical issues faced and have been recognized for problem solving skills.",
         "I have successfully led teams to deliver projects which were complex and had changes across multiple systems.",

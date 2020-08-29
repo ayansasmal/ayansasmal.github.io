@@ -6,7 +6,7 @@ import Description from "./Description/Description";
 const Experiences = (props) => {
   const [description, setDescription] = useState({
     plainText:
-      "I have been working as a Full Stack developer, for a leading Telstra in Sydney as a client for creating new and enhancing existing applications.",
+      "I have been working as a Senior Full Stack developer, for Westpac Banking Corporation as a client for creating new and enhancing existing applications and APIs.",
     listedText: [
       "All the projects that I have delivered were in Agile and have used JIRA to manage the work done by the team.",
       "The new applications have been developed using Spring Boot, Java 1.8, Node.js, React JS, Back-end unit tested with REST Assured, Postman. The existing application have been developed in JSPs and Spring MVC.",
