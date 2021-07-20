@@ -1,28 +1,28 @@
-import React from "react";
-import Classes from "./ContactDetails.module.css";
-import Detail from "./Detail/Detail";
+import React from 'react';
+import Classes from './ContactDetails.module.css';
+import Detail from './Detail/Detail';
 
-const ContactDetails = (props) => {
+const ContactDetails = props => {
   return (
     <div className={Classes.Content}>
       <div className={Classes.ContactDetails}>
-        <Detail name="Mobile Number :" value="+61 452 299 076" />
+        <Detail name="Mobile Number :" value={props.data.mobile} />
         <Detail
           name="Email Id :"
-          value="mailto:ayandelhi@gmail.com"
-          displayText="ayandelhi@gmail.com"
+          value={`mailto:${props.data.email}`}
+          displayText={props.data.email}
           isUrl={true}
         />
-        <Detail name="Based at :" value="Sydney, NSW" />
+        <Detail name="Based at :" value={props.data.location} />
         <Detail
           name="Github :"
-          value="https://github.com/ayansasmal/"
+          value={props.data.github}
           displayText="Github URL"
           isUrl={true}
         />
         <Detail
           name="LinkedIn :"
-          value="https://www.linkedin.com/in/ayan-sasmal/"
+          value={props.data.linkedIn}
           displayText="LinkedIn URL"
           isUrl={true}
         />
