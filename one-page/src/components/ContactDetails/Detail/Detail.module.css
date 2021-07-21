@@ -18,7 +18,7 @@
 @media screen and (max-width: 1024px) {
   .Name {
     display: inline-block;
-    width: 43%;
+    width: 40%;
     text-align: end;
     padding-right: 10px;
   }
