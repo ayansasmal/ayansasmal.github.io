@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.b717649d.chunk.css",
+    "main.css": "/static/css/main.9233afc7.chunk.css",
     "main.js": "/static/js/main.b862f44c.chunk.js",
     "main.js.map": "/static/js/main.b862f44c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2abf47c1.js",
@@ -8,14 +8,14 @@
     "static/js/2.20e2e3aa.chunk.js": "/static/js/2.20e2e3aa.chunk.js",
     "static/js/2.20e2e3aa.chunk.js.map": "/static/js/2.20e2e3aa.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.b717649d.chunk.css.map": "/static/css/main.b717649d.chunk.css.map",
+    "static/css/main.9233afc7.chunk.css.map": "/static/css/main.9233afc7.chunk.css.map",
     "static/js/2.20e2e3aa.chunk.js.LICENSE.txt": "/static/js/2.20e2e3aa.chunk.js.LICENSE.txt",
     "static/media/Name.module.css": "/static/media/FB_IMG_1572578256965.51196741.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2abf47c1.js",
     "static/js/2.20e2e3aa.chunk.js",
-    "static/css/main.b717649d.chunk.css",
+    "static/css/main.9233afc7.chunk.css",
     "static/js/main.b862f44c.chunk.js"
   ]
 }
