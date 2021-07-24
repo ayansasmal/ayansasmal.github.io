@@ -23,3 +23,14 @@
     padding-right: 10px;
   }
 }
+
+@media print {
+  .Name {
+    font-weight: 400;
+    width: 100px;
+  }
+
+  .Value {
+    color: black;
+  }
+}

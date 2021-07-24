@@ -2,8 +2,8 @@ import React from 'react';
 import Classes from './Skills.module.css';
 import StarIcon from '../../Assets/svg/starIcon';
 
-const Skills = props => {
-  const skills = props.data.map((val, i) => (
+const Skills = ({ data, header = 'Skills' }) => {
+  const skills = data.map((val, i) => (
     <li key={i} className={Classes.Skill}>
       {val.isSpeciality && <StarIcon />}
       {val.title}
@@ -11,7 +11,7 @@ const Skills = props => {
   ));
   return (
     <div className={Classes.Content}>
-      <div className={Classes.Header}>Skills</div>
+      <div className={Classes.Header}>{header}</div>
       <ul className={Classes.SkillSet}>{skills}</ul>
     </div>
   );

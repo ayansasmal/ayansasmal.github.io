@@ -27,6 +27,28 @@ const ContactDetails = props => {
           isUrl={true}
         />
       </div>
+      <div className={Classes.ContactDetailsPrint}>
+        <Detail name="Mobile :" value={props.data.mobile} />
+        <Detail
+          name="Email :"
+          value={`mailto:${props.data.email}`}
+          displayText={props.data.email}
+          isUrl={true}
+        />
+        <Detail name="Location :" value={props.data.location} />
+        <Detail
+          name="Github :"
+          value={props.data.github}
+          displayText={props.data.github}
+          isUrl={true}
+        />
+        <Detail
+          name="LinkedIn :"
+          value={props.data.linkedIn}
+          displayText={props.data.linkedIn}
+          isUrl={true}
+        />
+      </div>
     </div>
   );
 };

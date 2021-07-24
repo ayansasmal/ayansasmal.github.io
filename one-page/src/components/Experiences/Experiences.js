@@ -15,7 +15,7 @@ const Experiences = props => {
 
   return (
     <div className={Classes.Content}>
-      <div className={Classes.Header}>Experiences</div>
+      <div className={Classes.Header}>Work Experiences</div>
       <Experience descriptionHandler={setDescription} data={props.data} />
       <div className={Classes.MobileDescription}>
         {description && <Description text={description} />}

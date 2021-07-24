@@ -11,7 +11,7 @@
   display: block;
   height: 01px;
   background-color: white;
-  content: " ";
+  content: ' ';
   margin: 10px 0px;
   margin-bottom: 0px;
 }
@@ -32,4 +32,43 @@
   border-radius: 10px;
   font-weight: 300;
   font-size: 95%;
+}
+
+@media print {
+  .Content {
+    width: 90%;
+  }
+  .Header {
+    font-weight: 500;
+    font-size: 110%;
+  }
+
+  .Header:after {
+    display: none;
+  }
+
+  .SkillSet {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 10pt;
+    font-weight: 300;
+  }
+
+  .Skill {
+    display: inline-block;
+    margin: 2px;
+    padding: 2px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 95%;
+  }
+
+  .Skill svg {
+    display: none;
+    content: ',';
+  }
 }

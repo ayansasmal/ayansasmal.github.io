@@ -25,3 +25,21 @@
     margin: 2px 5px;
   }
 }
+
+@media print {
+  .Description {
+    width: auto;
+    margin: 2px 2px;
+    padding: 5px 10px;
+  }
+  .List {
+    list-style: disc;
+    padding-left: 15px;
+    text-align: justify;
+  }
+  .ListedText {
+    break-after: page;
+    padding: 3px 0px;
+    text-align: justify;
+  }
+}

@@ -6,25 +6,6 @@
   padding: 15px;
 }
 
-.Header:after {
-  display: block;
-  height: 1px;
-  background-color: white;
-  content: ' ';
-  margin: 10px 5%;
-  margin-bottom: 0px;
-}
-
-.Name {
-  font-weight: 500;
-  font-size: 110%;
-}
-
-.Duration {
-  font-style: italic;
-  font-size: 80%;
-}
-
 .Description {
   text-align: justify;
   text-justify: inter-word;
@@ -44,6 +25,17 @@
 }
 
 @media print {
+  .Content {
+    padding: 0px;
+    margin-bottom: 30px;
+  }
+
+  .Description {
+    font-size: 10pt;
+    margin: 10px 10px;
+    font-weight: 400;
+  }
+
   .HeaderPrint {
     display: inline-block;
     font-weight: 600;
@@ -69,5 +61,18 @@
   .Header:after {
     display: none;
     visibility: 0;
+  }
+
+  .List {
+    font-size: 10pt;
+    margin: 10px 25px;
+    font-weight: 300;
+    list-style: disc;
+    padding-left: 15px;
+    text-align: justify;
+  }
+  .ListedText {
+    padding: 3px 0px;
+    text-align: justify;
   }
 }

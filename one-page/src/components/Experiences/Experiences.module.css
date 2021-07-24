@@ -12,7 +12,7 @@
   display: block;
   height: 01px;
   background-color: white;
-  content: " ";
+  content: ' ';
   margin: 10px 0px;
   margin-bottom: 0px;
 }
@@ -32,5 +32,16 @@
   }
   .MobileDescription {
     display: none;
+  }
+}
+
+@media print {
+  .MobileDescription {
+    display: none;
+  }
+
+  .Header {
+    font-size: 135%;
+    font-weight: 600;
   }
 }

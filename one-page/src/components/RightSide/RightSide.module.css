@@ -13,3 +13,14 @@
     width: auto;
   }
 }
+
+@media print {
+  .RightSide {
+    display: block;
+    margin-top: 5px;
+    text-align: start;
+    padding: 0px;
+    width: 195mm;
+    margin-left: 35px;
+  }
+}

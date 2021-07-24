@@ -14,9 +14,14 @@
   display: block;
   height: 2px;
   background-color: white;
-  content: " ";
+  content: ' ';
   margin: 15px 35%;
   margin-bottom: 0px;
+}
+
+.ContactDetailsPrint {
+  display: none;
+  visibility: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -24,5 +29,27 @@
     margin: 5px auto;
     text-align: start;
     padding: 10px;
+  }
+}
+
+@media print {
+  .ContactDetails {
+    display: none;
+    visibility: 0;
+  }
+  .ContactDetailsPrint {
+    display: block;
+    text-align: start;
+    padding: 10px;
+  }
+  .Content {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    font-size: 8pt;
+    width: 45%;
+  }
+  .Content:after {
+    display: none;
   }
 }

@@ -2,27 +2,8 @@
   background-color: rgba(255, 255, 255, 0.1);
   margin-top: 20px;
   border-radius: 10px;
-  font-weight: 300;
+  font-weight: 400;
   padding: 15px;
-}
-
-.Header:after {
-  display: block;
-  height: 1px;
-  background-color: white;
-  content: ' ';
-  margin: 10px 5%;
-  margin-bottom: 0px;
-}
-
-.Name {
-  font-weight: 500;
-  font-size: 110%;
-}
-
-.Duration {
-  font-style: italic;
-  font-size: 80%;
 }
 
 .Description {
@@ -44,6 +25,17 @@
 }
 
 @media print {
+  .Content {
+    padding: 0px;
+    margin-bottom: 30px;
+  }
+
+  .Description {
+    font-size: 10pt;
+    margin: 10px 15px;
+    font-weight: 400;
+  }
+
   .HeaderPrint {
     display: inline-block;
     font-weight: 600;

@@ -26,10 +26,17 @@ const Experience = props => {
             }
             onClick={event => onClickHandler(index)}
           >
-            <div className={Classes.Title}>{val.title}</div>
-            <div className={Classes.Company}>{val.company}</div>
-            <div className={Classes.Location}>{val.location}</div>
-            <div className={Classes.Duration}>{val.duration}</div>
+            <div className={Classes.TitlePrint}>
+              <div className={Classes.Title}>{val.title}</div>
+              <div className={Classes.Company}>{val.company}</div>
+            </div>
+            <div className={Classes.LocationPrint}>
+              <div className={Classes.Location}>{val.location}</div>
+              <div className={Classes.Duration}>{val.duration}</div>
+            </div>
+            <div className={Classes.DescriptionPrint}>
+              <Description text={val.description} />
+            </div>
           </li>
           <div className={Classes.MobileDescription}>
             {val.isSelected && <Description text={val.description} />}
