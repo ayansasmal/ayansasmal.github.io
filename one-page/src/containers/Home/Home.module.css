@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.AppPrint {
+  display: none;
+  visibility: 0;
+}
+
+.App footer {
+  margin: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 15px;
+  font-size: 80%;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover,
+footer a:visited,
+footer a:active,
+footer a:link {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media print {
+  @page {
+    margin: 0;
+  }
+  .Header {
+    font-size: 135%;
+    font-weight: 600;
+    text-align: start;
+  }
+  .App {
+    display: none;
+    visibility: 0;
+  }
+
+  .AppPrint {
+    display: block;
+    text-align: center;
+  }
+
+  .AppPrint footer {
+    margin: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    color: black;
+    padding: 15px;
+    font-size: 80%;
+  }
+  footer a:hover,
+  footer a:visited,
+  footer a:active,
+  footer a:link {
+    text-decoration: none;
+    color: black;
+  }
+  .Qrcodes {
+    display: block;
+    margin-top: 100px;
+  }
+  .Qrcode {
+    margin: 0px 25px;
+    display: inline-block;
+  }
+  .QrcodeDesc {
+    font-size: 6pt;
+  }
+}
