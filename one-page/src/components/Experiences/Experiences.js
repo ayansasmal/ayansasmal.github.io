@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import Classes from './Experiences.module.css';
 import Experience from './Experience/Experience';
 import Description from './Description/Description';

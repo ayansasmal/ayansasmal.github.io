@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import QRCode from 'react-qr-code';
-import { useDispatch, useSelector } from 'react-redux';
+import {useDispatch, useSelector} from 'react-redux';
 import * as actions from '../../actions/resume';
 import AboutMe from '../../components/AboutMe/AboutMe';
 import Achievements from '../../components/Achievements/Achievements';

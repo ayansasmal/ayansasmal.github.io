@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, {useEffect, useState} from 'react';
 import Classes from './Experience.module.css';
 import Description from '../Description/Description';
-import { useDispatch } from 'react-redux';
+import {useDispatch} from 'react-redux';
 import * as actions from '../../../actions/resume';
 
 const Experience = props => {
