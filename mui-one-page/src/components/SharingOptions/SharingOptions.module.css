@@ -1,0 +1,12 @@
+.Options {
+    display: flex;
+    justify-content: right;
+    z-index: 10;
+    position: absolute;
+}
+.Label {
+    /*font-family: 'Abril Fatface', cursive;*/
+    color: black;
+    line-height: 100%;
+    text-shadow: 1px 1px 3px darkslategrey;
+}
