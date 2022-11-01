@@ -8,10 +8,12 @@
         "linkedIn": "https://www.linkedin.com/in/ayan-sasmal/"
     },
     "aboutMe": [
-        "Professional Web Application and API developer with more than 8+ years of experience in Java based Application development, 3+ years of experience in Front-end web development and 4+ years of experience as a Full Stack developer. With a vast and varied project experience in a financial institution, I am highly driven with a sense of responsibility and have been an outstanding performer professionally. I am always eager to learn new technology and ways to work better.",
+        "Professional Web Application and API developer with more than 11+ years of experience in Java based Application development, 4+ years of experience in Front-end web development and 6+ years of experience as a Full Stack developer and with developing cloud-first applications. With a vast and varied project experience in a financial institution, I am highly driven with a sense of responsibility and have been an outstanding performer professionally. I am always eager to learn new technology and ways to work better.",
         "I aim to use my experience and knowledge to perform better and hone my skills and be productive for organization."
     ],
     "achievements": [
+        "I have shown capability to work across the board as a Solution Designer, Technical Lead at times as required.",
+        "I have designed and created infrastructure for migrating on-prem Pega to cloud",
         "I have received “Super.Tech” award for having delivered the project with quality and without any production issues.",
         "I have been recognized by client for “Performance and Delivery Excellence” multiple times.",
         "I have been recognized as MVP in team for solving various problems faced during project implementations.",
@@ -23,12 +25,50 @@
         "description": "I have completed 4 years of Bachelors of Technology in Information Technology (IT) domain from GGSIP University, New Delhi in First Division. I had developed a .NET based Desktop Application as final year project to spy on computers in LAN."
     },
     "experiences": [
+      {
+            "title": "Lead Full Stack Developer",
+            "company": "Macquarie Group",
+            "duration": "08/2022 - Present",
+            "location": "Sydney, NSW, AU",
+            "isSelected": true,
+            "description": {
+                "plainText": "I am working as a Lead Full Stack developer, for Macquarie Group Limited, enhancing and creating APIs for the HR Tech.",
+                "listedText": [
+                    "I have worked along and guided a team of 6-9 developers over the past year. This includes assistance with debugging issues and implementing right and appropriate solution to existing or new problems",
+                    "All the projects that I have delivered are in Agile and are using JIRA to manage the work done by the team.",
+                    "The new applications have been developed using Node.js, React JS and backend unit tested with Jest, Postman and deployed on AWS Platform-as-a-Service. The existing application have been developed in Angular 9 for UI and Node.js for backend.",
+                    "I have created Apps and API which are integrated with various HR Systems, like Pega, Avature, SAP.",
+                    "I have contributed in designing and creating Micro-services and Micro-frontends for the features supported by the platform",
+                    "I have gained a working knowledge of various AWS Services and Components which are key for a good scalable application.",
+                    "I have played a crucial role in migrating the Pega App from on-prem to on public cloud. And while doing so, have gained a very detailed knowledge of working and various infrastructure requirements of Pega",
+                    "I have successfully documented and helped teams in implementing complex application and solutions involving multiple systems, whilst maintaining performance and security adherance.",
+                    "I have created various documents as part of project deliverables."
+                ]
+            }
+        },
+         {
+            "title": "Full Stack Developer",
+            "company": "FinXL Professional Services Pty Ltd",
+            "duration": "08/2021 - Present",
+            "location": "Sydney, NSW, AU",
+            "isSelected": false,
+            "description": {
+                "plainText": "I am working as a Full Stack developer, for Macquarie Group Limited as a client for enhancing and creating APIs for the HR Tech.",
+                "listedText": [
+                    "All the projects that I have delivered are in Agile and are using JIRA to manage the work done by the team.",
+                    "The new applications have been developed using Node.js, React JS and backend unit tested with Jest, Postman and deployed on AWS Platform-as-a-Service. The existing application have been developed in Angular 9 for UI and Node.js for backend.",
+                    "I have gained a working knowledge of various AWS Services and Components which are key for a good scalable application.",
+                    "I have successfully documented and helped teams in implementing complex application and solutions involving multiple systems, whilst maintaining performance and security adherance.",
+                    "I have created various documents as part of project deliverables."
+                ]
+            }
+        },
         {
             "title": "Senior Engineer Full Stack Developer",
             "company": "Cognizant Technologies",
-            "duration": "09/2020 - Present",
+            "duration": "09/2020 - 07/2021",
             "location": "Sydney, NSW, AU",
-            "isSelected": true,
+            "isSelected": false,
             "description": {
                 "plainText": "I have been working as a Senior Full Stack developer, for Westpac Banking Corporation as a client for creating new and enhancing existing applications and APIs.",
                 "listedText": [
@@ -191,7 +231,7 @@
     "skills": [
         {
             "title": "Java 7",
-            "isSpeciality": true
+            "isSpeciality": false
         },
         {
             "title": "JavaScript (ES5, ES6 +)",
@@ -231,7 +271,7 @@
         },
         {
             "title": "TypeScript",
-            "isSpeciality": false
+            "isSpeciality": true
         },
         {
             "title": "Spring Boot/Framework",
@@ -242,11 +282,19 @@
             "isSpeciality": false
         },
         {
+            "title": "TypeORM",
+            "isSpeciality": false
+        },
+        {
             "title": "Swagger and OAS",
             "isSpeciality": true
         },
         {
             "title": "jUnit",
+            "isSpeciality": false
+        },
+        {
+            "title": "Jest",
             "isSpeciality": false
         },
         {
@@ -274,11 +322,19 @@
             "isSpeciality": false
         },
         {
+            "title": "AWS Services",
+            "isSpeciality": false
+        },
+        {
             "title": "Docker",
             "isSpeciality": false
         },
         {
             "title": "MongoDB",
+            "isSpeciality": false
+        },
+        {
+            "title": "MySQL",
             "isSpeciality": false
         },
         {
